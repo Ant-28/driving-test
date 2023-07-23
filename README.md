@@ -18,3 +18,9 @@ In case this all goes awry, I have my initial commit as a backup.
 
 ## Hmm. Interesting. How do I run this?
 It's not complete. Don't even try to run it. Hopefully I'll be able to make it into an executable.
+
+## Credit where credit's due
+If you want to know where I copied code snippets from and don't want to read the code, here you go:
+- [Image extraction from PDF](https://pythonscholar.com/extract-images-from-pdf-in-python/)
+- TkDocs
+- Tabula Docs

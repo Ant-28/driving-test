@@ -72,7 +72,7 @@ class BaseGui():
 
     def _gen_scene(self):
         # the function you should edit when creating a scene
-        # main_frame = self.create_frame(self.root, padding = 0, borderwidth = 1, relief = "solid")
+        
         pass
         
         

@@ -76,6 +76,7 @@ class ImageExtract():
             ## user-defined, default implementation here
             if not image_str:
                 image_str = "img_" + self.default_num_gen.__next__() # get next value of generator
+            # add extension by default
             image_str += f".{image_ext}"
             image_str = os.path.join(self.image_dir, image_str)
            

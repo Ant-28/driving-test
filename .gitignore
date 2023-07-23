@@ -1,2 +1,5 @@
 .python-version
 .venv
+.venv/*test/
+images/
+questionData.py
