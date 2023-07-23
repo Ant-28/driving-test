@@ -46,49 +46,5 @@ def main():
 
 
 
-
-
-file_path = os.path.join(os.path.dirname(__file__), file_path)
-pdf_file  = fitz.open(file_path)
-
-pages = len(pdf_file)
-
-img_path = os.path.normpath(os.path.join(os.path.dirname(__file__), "../images/"))
-
-# image list
-img_list = []
-
-for pg_no in range(pages):
-    # get one page
-    page = pdf_file[pg_no]
-    img_list += page.get_images()
-
-
-# remove duplicates
-img_list = list(set(img_list))
-
-# the images are saved as im{num} so we need to extract and sort by the number to see 
-# the images in the correct order
-img_list = sorted(img_list, key = lambda x : int(x[7][2:]))
-
-for ind in range(len(img_list)):
-    img = img_list[ind]
-    xref = img[0]
-    base_img = pdf_file.extract_image(xref)
-    # get image bytes and extensions
-    img_bytes = base_img["image"]
-    img_ext   = base_img["ext"]
-
-    # you can pass in file-like objects to Image.open
-    image = Image.open(io.BytesIO(img_bytes))
-    # print(image.)
-    
-    # write bytes
-    # question
-    q = image_ind[ind]
-
-    print(os.path.join(img_path,f"image_{q}.{img_ext}"))
-    image.save(open(os.path.join(img_path,f"image_{q}.{img_ext}"), "wb"))
-
-    if q == 246:
-        image.save(open(os.path.join(img_path,f"image_420.{img_ext}"), "wb"))
+if __name__ == "__main__":
+    main()

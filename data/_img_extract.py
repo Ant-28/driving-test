@@ -76,8 +76,9 @@ class ImageExtract():
             ## user-defined, default implementation here
             if not image_str:
                 image_str = "img_" + self.default_num_gen.__next__() # get next value of generator
-
+            image_str += f".{image_ext}"
             image_str = os.path.join(self.image_dir, image_str)
+           
             image.save(open(image_str, "wb"))
             
     
@@ -96,7 +97,7 @@ class ImageExtract():
             x += 1
         
     def _create_path(self, path: str) -> str:
-        path = os.path.join(self.file_loc, self.pdf_file)
+        path = os.path.join(self.file_loc, path)
         path = os.path.normpath(path)
         return path
     
