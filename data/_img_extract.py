@@ -3,73 +3,108 @@ import fitz
 import os
 import io
 from PIL import Image
-
-
-#### image indices generation
-# this part is done manually
-# image 420 uses 246
-
-image_ind = {}
-
-# questions 1 - 158 have a pattern of questions with an image every even question
-for i in range(79):
-    image_ind[i] = 2*(i+1)
-
-# this part has to be done by hand
-other_img_indices = [243, 246, 255, 256, 258, 333, 375, 
-                     426, 429, 430, 431, 432, 434, 435, 436]
-
-for i in range(79, 79 + len(other_img_indices)):
-    image_ind[i] = other_img_indices[i-79]
-
-
-### end image indices generation (to match the question number)
+import shutil
 
 
 
-
-file_path = "testfile.pdf"
-
-pdf_file  = fitz.open(file_path)
-pages = len(pdf_file)
+# this is such a manual task that a class wouldn't generalize much
+# dear reader, tell me, is this a good idea? (I need help)
 
 
-imgs_path = "images/"
+# base image extraction class
 
-# image list
-img_list = []
+class ImageExtract():
+    # script location
+    file_loc = os.path.dirname(__file__)
 
-for pg_no in range(pages):
-    # get one page
-    page = pdf_file[pg_no]
-    img_list += page.get_images()
+    def __init__(self, pdf_path: str, image_dir: str) -> None:
+        # self.file_path = file_path
+        self.image_dir = self._create_path(image_dir)
+        self.pdf_file  = fitz.open(self._create_path(pdf_path))
+        self.pages = len(self.pdf_file)
+        # you're free to create the image index dictionary however you want (for naming purposes)
+        self.index_dict = {}
+        self.imgname_list = []
 
+        self.create_index_dict()
+        self.create_imgname_list()
 
-# remove duplicates
-img_list = list(set(img_list))
+        self.default_num_gen = self._def_n_gen()
 
-# the images are saved as im{num} so we need to extract and sort by the number to see 
-# the images in the correct order
-img_list = sorted(img_list, key = lambda x : int(x[7][2:]))
+   
 
-for ind in range(len(img_list)):
-    img = img_list[ind]
-    xref = img[0]
-    base_img = pdf_file.extract_image(xref)
-    # get image bytes and extensions
-    img_bytes = base_img["image"]
-    img_ext   = base_img["ext"]
+    def create_index_dict(self):
+        # user-defined
+        pass
 
-    # you can pass in file-like objects to Image.open
-    image = Image.open(io.BytesIO(img_bytes))
+    def create_imgname_list(self, remove_dup: bool = True):
+                # image list
+        self.imgname_list = []
+
+        for pg_no in range(self.pages):
+            # get one page
+            page = self.pdf_file[pg_no]
+            self.imgname_list += page.get_images()
+
+        # remove duplicates
+        if remove_dup:
+            self.imgname_list = list(set(self.imgname_list))
+
+        self.sort_imgname_list()
+
+    def sort_imgname_list(self):
+        return self.imgname_list
+
+    def export_images(self):
+        
+        for ind in range(len(self.imgname_list)):
+
+            # get xref
+            img = self.imgname_list[ind]
+            xref = img[0]
+            base_img = self.pdf_file.extract_image(xref)
+            # get image bytes and extensions
+            img_bytes = base_img["image"]
+            img_ext   = base_img["ext"]
+
+            # you can pass in file-like objects to Image.open
+            image = Image.open(io.BytesIO(img_bytes))
+
+            self.save_image(image, img_ext)
+
+    def save_image(self, image: Image, image_ext: str, image_str: str = None):
+            ## user-defined, default implementation here
+            if not image_str:
+                image_str = "img_" + self.default_num_gen.__next__() # get next value of generator
+
+            image_str = os.path.join(self.image_dir, image_str)
+            image.save(open(image_str, "wb"))
+            
     
-    # write bytes
-    # question
-    q = image_ind[ind]
-    image.save(open(imgs_path+f"image_{q}.{img_ext}", "wb"))
+    def copy_image(self, old_image: str, new_image: str):
+        # create a copy of an image, basically uses 
+        # assume a relative path
+        old_image = self._create_path(old_image)
+        new_image = self._create_path(new_image)
 
-    if q == 246:
-        image.save(open(imgs_path+f"image_420.{img_ext}", "wb"))
+        shutil.copy(old_image, new_image) # let the user handle  relative paths
+
+    def _def_n_gen(self):
+        x = 0
+        while True:
+            yield x
+            x += 1
+        
+    def _create_path(self, path: str) -> str:
+        path = os.path.join(self.file_loc, self.pdf_file)
+        path = os.path.normpath(path)
+        return path
+    
+
+            
+
+
+
 
 
 # handle the case of img_420
