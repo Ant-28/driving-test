@@ -7,7 +7,7 @@ So, I decided to learn how to parse and extract data from a PDF using a smorgasb
 
 ## Most of the codebase seems to be complete from your initial commit. Why commit now?
 I wanted to just upload this once I was done, but I wanted to store a previous commit as I play around with OOP and encapsulation for the data extraction script. 
-This is a big design change because I've been quite averse to OOP for the longest time (especially since I was introduced to the simplicity of C)
+This is a big design change because I've been quite averse to OOP for the longest time (especially since I was introduced to the simplicity of C).
 In case this all goes awry, I have my initial commit as a backup.
 
 ## Things I aim to learn from this
