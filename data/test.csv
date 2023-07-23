@@ -1,0 +1,432 @@
+q_no,question,opt1,opt2,opt3,ans,img
+1,"Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should",Sound horn and proceed,"Slow down, sound horn and pass",Stop the vehicle and wait till the pedestrians cross the road and then proceed,3,
+2,The following sign represents,Stop,No parking,Hospital ahead,1,images/image_2
+3,"You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side you should",Increase the speed and try to cross the bridge as fast as possible,Put on the head light and pass the bridge,Wait till the other vehicle crosses the bridge and then proceed,3,
+4,The following sign represents,Keep left,There is no road to the left,Compulsory turn left,3,images/image_4
+5,When a vehicle is involved in an accident causing injury to any person,Take the vehicle to the nearest police station and report the accident,Stop the vehicle and report to the police station,Take all reasonable steps to secure medical attention to the injured and report to the nearest police station within 24 hours,3,
+6,The following sign represents,Give way,Hospital ahead,Traffic island ahead,1,images/image_6
+7,On a road designated as one way,Parking is prohibited,Overtaking is prohibited,Should not drive in reverse gear,3,
+8,The following sign represents,No entry,One way,Speed limit ends,2,images/image_8
+9,You can overtake a vehicle in front,Through the right side of that vehicle,Through the left side,"Through the left side, if the road is wide",1,
+10,The following sign represents,Right turn prohibited,Sharp curve to the right,U turn prohibited,3,images/image_10
+11,"When a vehicle approaches an unguarded railway level crossing, before crossing it, the driver shall","Stop the vehicle on the left side of the road, get down from the vehicle, go to the railway track, and ensure that no train or trolley is coming from either side",Sound horn and cross the track as fast as possible,Wait till the train passes,1,
+12,The following sign represents,Pedestrian crossing,Pedestrians may enter,Pedestrians prohibited,1,images/image_12
+13,How can you distinguish a transport vehicle,By looking at the tyre size,By colour of the vehicle,By looking at the number plate of the vehicle,3,
+14,The following sign represents,Keep right side,Parking on the right allowed,Compulsory turn to right,2,images/image_14
+15,Validity of learners licence,Till the driving licence is obtained,6 months,30 days,2,
+16,The following sign represents,U Turn prohibited,Right turn prohibited,Overtaking through left prohibited,2,images/image_16
+17,"In a road without footpath, the pedestrians",Should walk on the left side of the road,Should walk on the right side of the road,May walk on either side of the road,2,
+18,The following sign represents,Horn prohibited,Compulsory sound horn,May sound horn,1,images/image_18
+19,Free passage should be given to the following types of vehicles,Police vehicles,Ambulance and fire service vehicles,"Express, Super Express buses",2,
+20,The following sign represents,Roads on both sides in front,Narrow bridge ahead,Narrow road ahead,2,images/image_20
+21,Vehicles proceeding from opposite direction should be allowed to pass through,Your right side,Your left side,The convenient side,1,
+22,The following sign represents,First aid post,Resting place,Hospital,3,images/image_22
+23,Driver of a vehicle may overtake,while driving down hill,If the road is sufficiently wide,When the driver of the vehicle in front shows the signal to overtake,3,
+24,The following sign represents,First aid post,Resting place,Hospital,1,images/image_24
+25,Driver of a motor vehicle shall drive through,The right side of the road,The left side of the road,The Center of the road,2,
+26,The following sign represents,Hospital,Resting place,First aid post,2,images/image_26
+27,When a Vehicle is parked on the road side during night,The vehicle should be locked,The person having licence to drive such a vehicle should be in the drivers seat,The park light shall remain lit,3,
+28,The following sign represents,Road closed,No parking,End of speed restriction,3,images/image_28
+29,Fog lamps are used,During night,When there is mist,When the opposite vehicle is not using dim light,2,
+30,The following sign represents,Narrow road ahead,Narrow bridge ahead,Roads on both sides ahead,1,images/image_30
+31,Zebra lines are meant for,stopping vehicle,pedestrians crossing,for giving preference to vehicle,2,
+32,The following sign represents,Railway station near,Level crossing unguarded,Level crossing Guarded,2,images/image_32
+33,When an ambulance is approaching,allow passage if there are no vehicles from front side,no preference need be given,the driver shall allow free passage by drawing to the side of the road,3,
+34,The following sign represents,Entry through right side prohibited,Entry through left prohibited,Overtaking prohibited,3,images/image_34
+35,Red traffic light indicates,vehicle can proceed with caution,stop the vehicle,slow down,2,
+36,The following sign represents,Cross road,No entry,Hospital,1,images/image_36
+37,Parking a vehicle in front of entrance to hospital,Proper,Improper,Proper if No Parking sign is not provided,2,
+38,The following sign represents,Restriction ends,No entry,No overtaking,2,images/image_38
+39,"Where the slippery road sign is seen on the road, the driver shall",reduce the speed by changing the gear,apply brake,proceed in the same speed,1,
+40,The following sign represents,May turn to left,Compulsory go ahead or turn left,Side road left,3,images/image_40
+41,Overtaking is prohibited in following circumstances,when it is likely to cause inconvenience or danger to other traffic,when the vehicle in front is reducing speed,during night,1,
+42,The following sign represents,Sound horn compulsory,Sound horn continuously,Horn prohibited,1,images/image_42
+43,Overtaking when approaching a bend,is permissible,not permissible,is permissible with care,2,
+44,The following sign represents,Road to the right in front,Compulsory turn right,Turn to right prohibited,2,images/image_44
+45,Drunken driving,allowed in private vehicles,allowed during night time,prohibited in all vehicles,3,
+46,The following sign represents,End of restriction,Do not stop,No parking,3,images/image_46
+47,Use of horn prohibited,"Mosque, Church and Temple","Near Hospital, Courts of Law",Near Police Station,2,
+48,The sign represents,Go straight,One way,Prohibited in both direction,2,images/image_48
+49,Rear view mirror is used,for seeing face,for watching the traffic approaching from behind,for seeing the back seat passenger,2,
+50,The sign represents,No entry for motor vehicles,No entry for cars and motor cycles,Entry allowed for cars and motor vehicles,2,images/image_50
+51,Boarding in and a lighting from a vehicle while in motion,Permitted in bus,permitted in auto rik shaw,prohibited in all vehicles,3,
+52,The sign represents,Trucks Prohibited,Bus Prohibited,Heavy vehicles Prohibited,1,images/image_52
+53,Parking is permitted,In turnings,On foot paths,Where parking is not prohibited,3,
+54,The sign represents,Bullock cart prohibited,Cycle prohibited,All vehicles prohibited,1,images/image_54
+55,When fuel is filled in a vehicle,shall not check air pressure,shall not smoke,shall not use any light of the vehicle,2,
+56,The sign represents,Students prohibited,Pedestrians permitted,Pedestrians prohibited,3,images/image_56
+57,Mobile phones shall not be used,in Government offices,in Police Stations,While driving a vehicle,3,
+58,The sign represents,Overtaking prohibited through the right side,Turn left,Left turn Prohibited,3,images/image_58
+59,Overtaking is prohibited,When the road ahead is not clearly visible,when the road ahead is wide enough,when the road center is marked with white broken lines,1,
+60,The sign represents,Drive the vehicle not exceeding 50 km/hr,Drive the vehicle at 50 km/hr,drive the vehicle exceeding 50km/hr,1,images/image_60
+61,The pedestrians shall not cross the road at sharp bends or very near to a stopped vehicle Why?,Inconvenience to other vehicles,Inconvenience to other road users,Drivers of other vehicles coming at a distance may not see persons crossing the road,3,
+62,The sign represents,Speed limit 2km/hr,No entry for vehicles having more than 2 meters width,No entry for vehicles having more than 2 meters height,2,images/image_62
+63,Records of a private vehicle are,"Registration Certificate, GCR, Insurance Certificate","Registration certificate, Insurance Certificate, Tax Token, Driving Licence","Registration Certificate, Permit, Trip Sheet",2,
+64,The sign represents,Entry only for vehicles with height above 35 meters,Entry only for vehicles with width above 35 meters,Entry for vehicles having height not exceeding 35 meters,3,images/image_64
+65,"While turning to a road to the left of the road in which you are going, you should","Show the left turn signal, drive to the center and turn to the left",Sound horn and turn to the left,"Show the left turn signal, keep to the left side of the road and turn to the left",3,
+66,The sign represents,Stop,No Stopping or standing,Junction,2,images/image_66
+67,Validity of PUCC Pollution Under Control Certificate,6 months,One Year,Two years,1,
+68,The sign represents,No entry,Ahead only,Entry in both direction,2,images/image_68
+69,"While you are driving with the head light in high beam during night, a vehicle approaches from opposite direction, you will",Proceed keeping to the left,Put the head light in dim and bright alternatively several times,Dim the head light till the vehicle passes,3,
+70,The sign represents,Compulsory ahead or turn right,Compulsory ahead or turn left,Side road ahead,2,images/image_70
+71,The Driver of a vehicle extends his right arm with the palm downward and moves the arm upward and downward several times You will understand that,He is turning to the left,He is slowing down the vehicle,Allowing to overtake,2,
+72,The sign represents,Stop on the left side,Compulsory keep left,Turn left,2,images/image_72
+73,Minimum age for getting a licence to drive motor cycle without gear,18 years,21 years,16 years,3,
+74,The sign represents,Right ascend,Right hand curve,Keep right,2,images/image_74
+75,"When you see the traffic sign School, you should","Stop the vehicle, sound horn and proceed",Slow down and proceed with caution,Sound horn continuously and proceed,2,
+76,The sign represents,Left hand curve,Left ascend,Keep left,1,images/image_76
+77,"While turning to the left, the driver of a two wheeler shall",Extend his left hand towards left,Not show hand signal,Show left turn signal with his right hand,3,
+78,The sign represents,Right hair pin bend,Right ascend and descend,Right descend,1,images/image_78
+79,The Signal while taking U turn,Left turn signal,Right turn signal,Slow down signal,2,
+80,The sign represents,Left descend,Left hair pin bend,Keep left,2,images/image_80
+81,The driver of a vehicle shall not take U turn,In a road where there is no traffic restrictions,In a busy road,When there are vehicles passing through the left,2,
+82,The sign represents,Right reverse bend,Left reverse bend,Turn right and go ahead,1,images/image_82
+83,One time tax for a new car is for,Till the registration of the vehicle is cancelled,15 years,5 years,2,
+84,The sign represents,Right reverse bend,Left reverse bend,Turn left and go ahead,2,images/image_84
+85,"Before overtaking a vehicle, it should be ensured that",No vehicle is approaching from behind,The road ahead is clearly visible and it is safe to overtake,The vehicle in front is turning left,2,
+86,The sign represents,Side road left,Speed limit,Axle weight limit,3,images/image_86
+87,Number of persons can be carried in the cabin of a Goods Carriage,5 Persons,Sufficient persons for loading and unloading the goods,As many persons as recorded in the Registration Certificate,3,
+88,The sign represents,Turn right,Side road right,Keep right,2,images/image_88
+89,"When your vehicle is being overtaken, you should",Stop your vehicle and let the vehicle to overtake,Increase the speed of your vehicle,Not obstruct the other vehicle from over taking,3,
+90,The sign represents,Major Road ahead,Cross Road ahead,Narrow road ahead,1,images/image_90
+91,A place where parking is prohibited,In front of a parked vehicle,On one way road,On footpath,3,
+92,The sign represents,Turn right,Turn left,Round about,3,images/image_92
+93,The hand brake is to be used,To reduce the speed,To apply sudden brake,To park a vehicle,3,
+94,The sign represents,Narrow road ahead,Dangerous dip,Ferry,2,images/image_94
+95,More than two persons on a two wheeler is,Allowed in unavoidable circumstances,Violation of law,Allowed when the traffic is less,2,
+96,The sign represents,Guarded level cross,Unguarded level cross,Barrier ahead,1,images/image_96
+97,You want to overtake a vehicle near a hospital You will,Blow the horn continuously,Not blow horn,Blow the horn only intermittently,2,
+98,The sign represents,Yin ter section left,Yin ter section right,Side road left,1,images/image_98
+99,Using unregistered vehicle in public place is,Illegal,Legal,Legal if there is urgency,1,
+100,The sign represents,Yin ter section left,Yin ter section right,Side road right,2,images/image_100
+101,Minimum age for obtaining driving licence for transport vehicles,25 years,18 years,20 years,3,
+102,The sign represents,Turn left,Turn right,Yin ter section,3,images/image_102
+103,Overtaking is prohibited in the following case,State highway,Pan cha yath roads,Narrow bridge,3,
+104,The following sign represents,Road to the right in front,There are roads ahead and to the right,Compulsory go ahead or turn to right,3,images/image_104
+105,"If a person in charge of an animal apprehending that the animal may become unmanageable, request to stop a vehicle",The driver shall stop the vehicle,"The driver shall proceed, blowing the horns",The driver shall reduce the speed,1,
+106,The sign represents,Slippery road,Gravel road,No entry for motor car,1,images/image_106
+107,Parking prohibited in the following case,road side,where parking is permitted,near traffic light,3,
+108,The sign represents,Loose gravel,Slippery road,No entry for motor car,1,images/image_108
+109,Over speeding,is an offence leading to suspension or cancellation of driving licence,is an offence leading to punishment by fine only,is not an offence,1,
+110,The sign represents,Cycle crossing,Cycle crossing prohibited,No entry for cycles,1,images/image_110
+111,When school buses are stopped for picking up or setting down students,Blow horn and proceed,proceed slowly and cautiously since there is chance of students suddenly crossing the road,No special care is required,2,
+112,The sign represents,Cattle prohibited,Possibility of cattle on road,Vehicles carrying cattle prohibited,2,images/image_112
+113,When a blind person crosses the road holding White Cane,The driver of a vehicle shall consider the white cane as a traffic sign to stop the vehicle,Blow the horn and proceed,Slow down and proceed with caution,1,
+114,The sign represents,School ahead,Pedestrians crossing,Pedestrians crossing prohibited,1,images/image_114
+115,When a motor vehicle is involved in an accident,shall report to the nearest police station within 24 hours,shall report to the nearest police station within 12 hours,shall report to the nearest police station within 48 hours,1,
+116,The sign represents,Men at work,Children playing,Pedestrian crossing,1,images/image_116
+117,When any property of a third party is damaged due to an accident,driver shall report to the nearest police station within 24 hours,driver shall report to the nearest police station within 7 days,need not report to any police station,1,
+118,The sign represents,Rough road,Slippery road,Falling rocks,3,images/image_118
+119,When the vehicle behind has begun to over take our vehicle,We shall not overtake another vehicle,we can over take another vehicle,we can overtake another vehicle blowing horn,1,
+120,The sign represents,Bridge ahead,Ferry,Refreshment stall ahead,2,images/image_120
+121,The driver of the vehicle in front has not given signal for over taking,We can overtake,we shall not overtake,we can overtake blowing horn,2,
+122,The sign represents,Steep ascend,Steep descend,Slippery road,1,images/image_122
+123,When our vehicle is being over taken,We shall not increase speed,We can increase speed,We can increase speed with due care,1,
+124,The sign represents,Steep ascend,Steep descend,Slippery road,2,images/image_124
+125,Parking is prohibited in the following place,Entrance of hospital,Left side of the road,Market area,1,
+126,The sign represents,Narrow road ahead,Yin ter section,Road widens ahead,3,images/image_126
+127,Parking is prohibited in the following place,blocking a fire hydrant,near a public well,left side of the road,1,
+128,The sign represents,Drainage in middle,Bridge ahead,Gap in median,3,images/image_128
+129,To carry pillion rider on a motor cycle,"the vehicle shall be provided with foot rest, hand grip and sari guard",the vehicle shall be provided with side car,vehicle shall be provided with rear view mirror,1,
+130,The sign represents,Hump or rough road,Zigzag road,Ghat road,1,images/image_130
+131,Smoking while driving public service vehicle,can attract suspension of driving licence,can attract fine only,None of the above,1,
+132,The sign represents,Barrier ahead,Railway cross ahead,Weighbridge ahead,1,images/image_132
+133,Abandoning vehicle in a public place causing in convenience to others or passengers,the driving licence is liable to be suspended or cancelled,only fine is attracted,None of the above,1,
+134,The sign represents,No thorough side road,Left turn,Bridge ahead,1,images/image_134
+135,"Abandoning a transport vehicle as a mark of protest or agitation or any kind of strike, in a public place or in any other place causing obstruction or inconvenience to the public or passengers or other users of such places",the driving licence is liable to be suspended or cancelled,only fine is attracted,Legitimate right of driver,1,
+136,The sign represents,Ferry ahead,Main road ahead,No thorough road,3,images/image_136
+137,Carrying overload in goods carriages,legally not punishable,Only fine is attracted,can attract suspension or cancellation of driving licence,3,
+138,The sign represents,Parking prohibited,Parking both sides,Police aid post,2,images/image_138
+139,The driver of a taxi refusing the offer for journey for the reason that the distance is short,can attract suspension/ cancellation of driving licence,only fine is attracted,None of the above,1,
+140,The sign represents,Parking lot  scooters and motor cycles,Scooters and motor cycles prohibited,Scooters and motor cycles repairing,1,images/image_140
+141,"When you reach an intersection where there is no signal light or police man, you will",Give way to traffic approaching the intersection from other roads,"Give proper signal, sound the horn and proceed",Give way to the traffic approaching the intersection on your right side and proceed after giving necessary signals,3,
+142,The sign represents,No entry for private cars,Parking lot  Taxis,Parking for police vehicles,2,images/image_142
+143,"While you are approaching an intersection where the yellow signal light is blinking, you should","As there is no restriction, proceed at the same speed",Stop the vehicle and wait for the green light to appear,Slow down the vehicle and proceed only after ensuring that it is safe to do so,3,
+144,The sign represents,Petrol pump,Parking lot  Auto riks haws,Auto rik shaw parking prohibited,2,images/image_144
+145,Where the road is marked with continuous yellow line the vehicle should,Not touch or cross the yellow line,Allow to overtake only through the right side of yellow line,Cross the line only when overtaking a vehicle in front,1,
+146,The signal represents,Request to stop the vehicle coming behind,Intends to turn right,Request to stop the vehicle from opposite direction,2,images/image_146
+147,"While you are driving on gradient roads, you should",Give precedence to the vehicles coming down the hill,Give precedence to the vehicles going up the hill,Give precedence to the vehicles carrying heavy load,2,
+148,The signal represents,Intends to turn left,Intends to turn right,Request to stop all other vehicles,1,images/image_148
+149,The driver of a tractor shall not carry,Any person other than the driver,More than three persons other than the driver,More than two persons including the driver,1,
+150,The signal represents,Intends to turn right,Request to stop the vehicle coming from opposite direction,Intends to slow down the vehicle,3,images/image_150
+151,"While a vehicle entering a main road from a branch road, the driver shall give preference",To the vehicles coming from the left,To the vehicles coming from the right,To all vehicles proceeding along the main road,3,
+152,The signal represents,Intends to go straight,Intends to stop the vehicle,Intends to turn right,2,images/image_152
+153,You can overtake a vehicle through the left side if,The driver of that vehicle indicates his intention to turn right and proceeds to the center of the road,There is sufficient space on the left side,That vehicle moves slowly,1,
+154,The signal represents,Request to stop the vehicle from behind,Request to pass the vehicle from behind,Request to stop the vehicle from front,1,images/image_154
+155,"What is"" Tailgating ""?",Driving too close behind a vehicle in a dangerous manner,Keeping safe distance from the vehicle ahead regulating the speed proportionately,Keeping a distance of at least 7 metres from the vehicle ahead,1,
+156,The signal represents,Request to pass the vehicles coming from the left,Request to pass the vehicle coming in opposite direction,Request to stop the vehicle from behind and front,3,images/image_156
+157,"A vehicle can be seized by authorised officers, if",The vehicle is not covered by a valid registration or permit,The vehicle is not covered by a valid insurance,The vehicle exceeds the speed limit,1,
+158,The signal represents,Request to stop the vehicle from front,Request to stop the vehicle from behind,Request to pass the vehicle from front,1,images/image_158
+159,Type of horn permitted,Air horn,Multi toned horn,Electric horn,3,
+160,Road on which driving in reverse gear is prohibited,One way road,Steep descending road,Steep ascending road,1,
+161,"If drunken driving is detected, the driver is liable to be punished with",Imprisonment which may extent to 6 months or Rs2000/ as fine or both,Imprisonment which may extent to 1 year or fine up to Rs4000/ or both,2 years rigorous imprisonment,1,
+162,You hold a learners licence for motor cycle,You will drive when the traffic is less,You will drive the vehicle only when an instructor holding driving licence to drive motor cycle accompanies,You will not carry any other person on the motor cycle except for the purpose of getting instructions from an instructor who holds a valid driving licence to drive motor cycle,3,
+163,"When the yellow light at an intersection appear on the signal light, the driver of a approaching vehicle should",Ensure safety and drive away,Slow down to stop,Sound horn and proceed,2,
+164,All motor vehicles must be covered by,Life Insurance,Third party Insurance,Comprehensive Insurance,2,
+165,Minimum distance to be kept from the vehicle going in front,10 meter,5 meter,safe distance according to speed,3,
+166,The number of passengers permitted to be taken in private vehicle is recorded in the,Registration Certificate,Tax Token,Permit,1,
+167,Overtaking is prohibited when,the road is marked with broken center line in white colour,the road is marked with continuous center line in yellow colour,vehicle is driven on a steep hill,3,
+168,"If the road is marked with broken white lines, you",shall not change track,can change track if required,shall stop the vehicle,2,
+169,Blinking red traffic light means,stop the vehicle till green light glows,stop the vehicle and proceed if safe,reduce speed and proceed,2,
+170,Maximum permitted speed of a motor car on national high way in the state,60 km/h our,70 km/h our,80 km/h our,2,
+171,What is defensive driving?,Driving cautiously anticipating violation of traffic rules and road signs both by drivers and other road users,Driving with sole aim of reaching the destination with no regards to road signs,Driving on the assumption that other road users will be cautious about their safety,1,
+172,What is meant by stop line?,A line with 5 cent i meters width in white or yellow colour at the approach of road junction or pedestrian crossing,A line drawn through the center of the road in yellow colour,A broken white line through the center of the road,1,
+173,Before starting the engine of a vehicle,Check radiator water level and engine oil level,Check head light,Check brake,1,
+174,Maximum permissible speed of a motor cycle,No Limit,50 Km/hr,60 Km/hr,2,
+175,The only vehicle which is permitted to be driven at a speed exceeding 60 Km/hr,Motor Cycle,Motor Car,Stage Carriage,2,
+176,Maximum permissible speed of a motor car near educational institution,40 km/h our,25 km/h our,30 km/h our,2,
+177,Maximum permitted speed of trucks on national high way in the state,50 km/h our,60 km/h our,70 km/h our,2,
+178,Maximum permissible speed of a two wheeler near educational institution,25 km/h our,30 km/h our,40 km/h our,1,
+179,Projection of load up to one metre (100 cms) towards back is permitted,in tractor,in station wagon,in goods carriages,3,
+180,When lorries are loaded,The load can be projected to both sides within 30 cm,The load shall not project on both sides,The load can be projected to both sides within 50 cm,2,
+181,Maximum length of load that can be projected from the rear part of a goods carriage,150 cm,100 cm,120 cm,2,
+182,Maximum permissible speed of heavy motor vehicles in the cities,35 Km/hr,45 Km/hr,60 Km/hr,2,
+183,Maximum distance allowed between towing and to wed vehicles,15 meters,5 meters,10 meters,2,
+184,Maximum permissible speed of a motor cycle in cities,40 km/h our,30 km/h our,50 km/h our,1,
+185,"You are driving on a two lane street, vehicle in front of you is moving very slowly and the road ahead is clear for overtaking, you should",Pass the vehicle from the left hand side,Pass the vehicle from the right hand side,Pass the vehicle from any convenient side,1,
+186,Maximum speed permitted for vehicles towing another vehicle,20 km/h our,24 km/h our,32 km/h our,2,
+187,Motor vehicle which is not permitted to drive in ghat roads at a speed of more than 30 Km/h,heavy passenger vehicle,motor car,Auto rickshaw,2,
+188,Circumstances in which a motor cycle can be driven at the speed of 60 km/h our,During night,During day time,Under no circumstances,3,
+189,The maximum speed permitted for motor cycles in city during night time,25Km/hr,30 Km/hr,40 Km/hr,2,
+190,Maximum permitted weight that can be carried on a goods carriage,No limit,allowed as per permit,10 ton,2,
+191,The minimum fine for over  loading in goods carriage,Rs 1000/,Rs 2000/,Rs 3000/,2,
+192,Maximum permissible speed of an auto rickshaw near educational in i st i tut ion,35 km/h our,25 km/h our,20 km/h our,2,
+193,Maximum permissible speed of a light motor vehicle near educational institution,45 km/h our,35 km/h our,25 km/h our,3,
+194,Maximum permissible speed of motor car on ghat roads,40 km/h our,30 km/h our,20 km/h our,1,
+195,Maximum permissible speed of motor cycle on ghat roads,30 km/h our,35 km/h our,40 km/h our,3,
+196,Maximum permissible speed of an auto rickshaw,50 Km/hr,30 Km/hr,40 Km/hr,3,
+197,Maximum permissible speed of a light motor vehicle,60 Km/hr,70 Km/hr,No limit,1,
+198,Maximum permissible speed of a medium motor vehicle,80 Km/hr,65 Km/hr,70 Km/hr,2,
+199,According to section 112 of the Motor Vehicles Act 1988,Speed limit shall not be exceeded,Shall not drive after consuming alcohol,Shall not use vehicle on road without paying tax,1,
+200,Section 113 of the Motor Vehicle Act 1988 stipulates that the driver should not drive a vehicle,After consuming alcohol,Exceeding the speed limit,Exceeding the weight permitted to carry,3,
+201,Maximum speed allowed to vehicles passing a procession,15 KM/hr,25 KM/hr,35 KM/hr,1,
+202,The height limit of load on goods vehicle from ground level,38 meters,3 meters,no limit,1,
+203,Maximum permissible speed of heavy motor vehicle near education in i st i tut ion,35 km/h our,25 km/h our,15 km/h our,3,
+204,Maximum permissible speed of heavy passenger motor vehicle near educational institution,35 km/h our,25 km/h our,15 km/h our,3,
+205,According to section 129 of Motor Vehicle Act 1988 a person driving a motor cycle shall,wear jerkins,wear helmet,wear shoes,2,
+206,Maximum permissible speed of a medium motor vehicle near educational institution,15 km/h our,25 km/h our,35 km/h our,1,
+207,Maximum permissible speed of auto rickshaws on ghat road,30 km/h our,40 km/h our,20 km/h our,1,
+208,Maximum permissible speed of heavy motor vehicles on ghat roads,35 km/h our,25 km/h our,15 km/h our,1,
+209,Maximum permissible speed of auto rik shaw in cites and municipal towns,40 Km/hr,30 Km/hr,20 cm,2,
+210,Maximum permissible speed of heavy motor vehicles,70 Km/hr,65 Km/hr,50 Km/hr,2,
+211,Maximum permissible speed of medium motor vehicles on ghat roads,45 km/h our,35 km/h our,25 km/h our,2,
+212,"You wish to take ""U"" turn at an intersection controlled by a traffic light you should",Drive to another intersection that has no traffic light,"Wait until the light turns green before making the ""U"" turn","Make the ""U"" turn if there is a policeman at the intersection",3,
+213,Zigzag driving is,Dangerous to two wheelers only,Dangerous to all at all times,Dangerous to four wheelers vehicles,2,
+214,You are on a long downhill slope What should you do to help control the speed of your vehicle?,change to low gear,Stop the Engine,select neutral,1,
+215,To supervise a learner driver you Must,Be an approved driving instructor,Hold a Driving licence,Hold a learner ’s licence,1,
+216,While on a round about,traffic entering has right of way,traffic existing has right of way,traffic on the roundabout has right of way,3,
+217,It is essential to wear a helmet while driving a two wheeler because,It is for your individual safety,Otherwise you will be caught by the traffic police,It is necessary for uniformity on the road,1,
+218,When you shall sound the horn of your vehicle?,to give you right of way,to warn other drivers of your presence,to attract a friend ’s attention,1,
+219,You are behind a bus that has stopped to pickup or drop off passengers you should,wait behind patiently,overtake from the left,overtake from the pedestrians,1,
+220,You are overtaking a car at night You must ensure that,you do not dazzle other road users,you flash headlamps before overtaking,your rear fog lights are switched on,2,
+221,The middle lane is for,overtaking,two wheelers,traffic at 40 km/h,3,
+222,A flashing yellow signal is used when,traffic lights are n’t working,you should slow down& proceed with caution,men are at work,2,
+223,You stop for pedestrians waiting to cross at a zebra crossing They do not start to cross What should you do?,sound your horn,be patient and wait,drive on,2,
+224,You are allowed to park,on a footpath,at top of a hill,neither of these two alternatives,3,
+225,A high beam in foggy conditions,is good because you can see more,is bad because it reflects back and can dazzle,make sure others can see you,2,
+226,Dipping your lights is necessary when,you want to overtake,it is foggy,following a vehicle,2,
+227,When approaching a crossing where you are to go straight,change lanes to the right lane,change lanes at least 50 mts ahead to the middle lane,change lanes to the middle lane at the crossing,2,
+228,"You are driving A vehicle comes up quickly behind, flashing head lamps You should",accelerate to maintain gap behind you,touch the breaks to show your brake lights,"allow the vehicle to over take, if safe",3,
+229,When must you use a dipped high beam headlight during the day?,in poor visibility and highways,on country roads,along narrow streets,1,
+230,You are driving in rain Why should you keep well back from the vehicle in front?,in case it changes direction suddenly,in case its fog lights dazzle you,in case it stop suddenly,3,
+231,What can cause hard steering,badly worn tyre,over inflated tyre,under inflated tyre,3,
+232,Motor cyclists usually cause hazard by,Speed more than permitted,passing very close to you by driving in the zigzag manner,all of the above,3,
+233,"You are waiting at at Junction, A vehicle is coming from the left with right signal flashing, you should",accelerate hard and move forward,move forward slowly,wait until the vehicle turn to right side,3,
+234,While you reach a junction with limited visibility you should,look both ways and move carefully,look at right and move slowly,move quickly,1,
+235,You should switch on your hazard warning lights,When you are moving straight,When your vehicle is parked and the same is causing inconvenience to other road users,when your vehicle parked at a no parking area,2,
+236,"You are driving on a well lit motor way at night, you must",use your head light on high beam,always use your head lights in low beam,always use hazard light,2,
+237,Anti lock braking system prevents wheels from locking This avoid tyres to,Puncture,skid,wear,2,
+238,"While travelling over motor way at night with other vehicles just ahead, better the switched on lights should be",hazard warning light,low beam head light,high beam head light,2,
+239,"A cyclist is signalling to turn right and drawn to center of the road, you should",over take through left side,sound horn continually,overtake through right side only,1,
+240,Driving at high speed,gives you better fuel efficiency,take less time for your journey,reduces time to react to hazard,3,
+241,"While driving, avoid",observing traffic rules,reacting to wrong behaviour of other drivers,observing the dash board gu ages,2,
+242,The continuous yellow line in the centre of the road means,no parking,do not over take,stop,2,
+243,In this carriage way you can drive,above 50 km/hr,below 50 km/hr,up to a maximum legal speed permitted to your vehicle,2,images/image_243
+244,When you approach a bridge you should,slow down and do not over take,beware of pedestrians,switch on the head lights,1,
+245,"When approaching a right hand curve, you should keep well to the left to",improve your view of the road,avoid skid,to pass the vehicle from behind,1,
+246,"While you are approaching a staggered junction, You should",slow the vehicle,maintain your speed and sound the horn,use hazard warning light,1,images/image_246
+247,At the Blind Junction you must stop,only if there is traffic on the main road,behind the line and move forward slowly as vision improves,only if you are turning to the right,2,
+248,"You entered a one way in the opposite direction unknowingly, you should",reverse out of the road,Turn back carefully and drive away,continue to the end of the road,2,
+249,"While driving through a main road another vehicle is reversing from a side road, You should",Move to the opposite side of the road,speed up and drive through quickly,sound your horn and be prepared to stop,3,
+250,"Approaching a cross road, the driver of the long vehicle ahead of you, signals right and moves to left, You should",sound horn and warn the driver,wait behind the vehicle,over take on the right hand side,2,
+251,Basic rule on a two lane high way is,keep to the left lane unless over taking,keep the lane with the least traffic,always keep to the right lane at high speed,1,
+252,"You meet an obstruction on your side of the road, You should",move on as you have priority,accelerate to move quickly,give way to on coming traffic,3,
+253,The white line along the side of the road,means no parking,means no overtaking,edge of carriage way,3,
+254,The mandatory signs giving orders are mostly in,Red/ Blue circles,Red Triangles,Base triangles,1,
+255,This line means,cross it when ever you feel,cross it when it is safe and come back after over taking,not cross it under any circumstances,2,images/image_255
+256,Vehicles adjacent to the solid line,can cross line for over taking,can not cross for over taking,can not stop,2,images/image_256
+257,"Before you make an ""U"" turn you should",Select the neutral gear and the indicator,"show the signal for a right turn, watch in the rear wiew mirror",wait for signal to turn red,2,
+258,"While taking ""U"" turn in this road, You should",Move forward since prohibited,Look in the mirror give signal and turn,show the signal pass the vehicle from the opposite direction and turn,1,images/image_258
+259,"When you are moving from a parking place, You should","use the rear view mirrors, check in the blind spot and give signal",look around the vehicle,sound horn and move ahead,1,
+260,When do you stop on a motor way,when ordered by police or if traffic signal is red,in an emergency or brake down,all of the above,3,
+261,"You are intending to turn left, you should position your vehicle at",the middle lane,the left hand lane,on the shoulder of the road,2,
+262,You are in a wrong lane while approaching a busy Junction you should,continue in that lane,stop until other lane is cleared,show signal and cut across,1,
+263,When going straight ahead at a round about,indicate right signal and then left signal,No signals is required,use hazard warning lamp,2,
+264,You must not reverse your vehicle,on a busy road,on a one way road,all of the above,3,
+265,When do you reverse from a side road in to a main road,only if both roads are clear and empty,at any time,legally not permitted,3,
+266,"When approaching from the rear, where two lanes of traffic have stopped at a signal, you should",pass all the vehicle and stop in front of them,stop behind the last vehicle in the appropriate lane,stop any where,2,
+267,Rear Mirror is slightly curved to,give a wider field of vision,cover the blind spot totally,judge the speed of following vehicle,1,
+268,Noise pollution may result in,disturbing mental equilibrium,Disturbing the concentration of the driver,all of the above,3,
+269,Air pollution affects,Human beings only,plants and animals only,all of the above,3,
+270,Fitment of multi toned horns on a motor vehicle is,permitted only in emergency,an offence under the law as it causes noise pollution,for avoiding accident,2,
+271,"Your vehicle pulls to one side while braking, You should",change the tyres around,pump the pedal when braking,consult your mechanic,3,
+272,What is the common cause of skidding,bad condition of tyres and road,error of driver,both of the above,3,
+273,"While travelling you are dazzled by head lights of on coming vehicle, you should",pull down your sun visor,slow down and stop,switch on your main beam,2,
+274,What is blind spot,An area not seen in your rear view mirrors,an area not covered by head lights,an area not covered by the rear view mirror inside your vehicle,1,
+275,"While approaching a road under repair, you comply the permitted speed limit",during day time and working is going on,During night time only,at all times,3,
+276,Section 185 of MV Act pertains to,Driving at excessive speed,Drunken driving,Both of the above,2,
+277,Dangerous driving is,allowed in an emergency situation,punishable offence under section 184 of MV act,both of the above are correct,2,
+279,"An accident has just happened and the injured person is lying on the road, you should",protect the area and inform the authorities,protect the area and give first aid to injured,"protect the area, give first aid, take the injured to the hospital and inform the authorities",3,
+280,What is the main aim of the first aid,To treat the injury,To prevent aggravating the injury and its effects,all of the above,2,
+281,How does alcohol affect your driving,It increase your awareness,it reduce your concentration and attention,it increase your confidence,2,
+282,Which of these lights will come after Amber at a traffic light,Red,Green,red or gree en,1,
+283,"While driving you start feeling tired or unable to concentrate, You should",Stop as soon as it is safe to do so and take rest,switch on the stereo to help you concentrate,speed up to get your destination sooner,1,
+284,"You are d riv ng at night, what can you do to help you to keep alert?",takes proper rest periods at correct intervals,walk around in fresh air after a rest stop,both of the above,2,
+285,"You are driving a car during a journey you are feeling ill and unable to concentrate, what should you do?",increase your speed to finish your work earlier,continue your journey and keep your windows open,stop in a safe place and if possible seek for medical attention,3,
+286,Anti lock braking system is designed to,prevent the driving wheel from spinning,prevent moisture from building up inside the braking system,prevent wheels from locking up on braking and avoid skidding of the tyres,3,
+287,"What is"" brake fade""",A reduction of air pressure,smooth progressive braking,reduction of braking effectiveness,3,
+288,To prevent brake fade while descending you should,select neutral for a short distance,repeatedly pump the brake pedal,select a suitable higher power gear and apply brakes if only necessary,3,
+289,"When stopping on an uphill gradient, one should",Hold the vehicle on the clutch,Hold the vehicle on the foot brake,Hold the vehicle applying parking brake after stopping,3,
+290,"You are driving behind a large vehicle, how can you improve your view ahead?",Overtake as soon as you can,Move over to the left,Stay further back,3,
+291,While driving through a flooded road what should you do?,Stop the vehicle until the flood stops,Watch flood level gu age drive in high torque gear with high acceleration,Drive in high torque gear with low acceleration,2,
+292,Driving the vehicle in a neutral gear in down hill is dangerous because it affects the,Cooling system,Speed governor,Brake system,3,
+293,what is the benefit of power assisted steering,Reduce tyre wear,assist with braking,reduce driving effort,3,
+294,How can you avoid harsh driving?,gently apply the parking brake,plan and take earlier action in using brake,slow down by using gears only,2,
+295,On which occasions would passengers be most likely to notice weight transfer?,braking,cornering,both of the above,3,
+296,"Which of the following should you do before a bend, round about or corner?",select the appropriate gear,adjust your speed,both of the above,3,
+297,Hazard warning lamps may only be used at certain times,for going ahead at a junction,For slowing down the rear vehicle,for emergency parking especially on high ways and busy roads,3,
+298,A laminated safety wind screen glass is one which,will not shatter,has a plastic layer pasted between dual glasses,both of the above,3,
+299,What must you do if your vehicle is involved in an accident?,"stop at the scene of the accident, give First Aid to the victim if possible and help him to get medical attention",drive the vehicle to the nearest police station,inform the insurance authorities at the earliest,1,
+300,"Your vehicle has hit a parked vehicle The owner of that vehicle could not be traced out at the time, you must",drive away from the accident spot and clear the damage at the earliest,inform the insurance authorities as soon as possible,inform the police station having jurisdiction over the place in which the accident occurred within 24 hours,3,
+301,While driving your vehicle on a motor way a front tyre gets burst You should,loosen the grip on the steering wheel,brake firmly for a stop,hold the steering wheel firmly and stop safely by using brake,3,
+302,Motor cyclist are advised to wear type of clothing at night to make them visible to other road users,bright clothing,dark clothing,none of this,1,
+303,"Before you open the right side doors on parking, you should",ensure that no vehicle is passing by,quickly open the door and get down,do not open the right doors and get down through the left only,1,
+304,Which of the following is most important when loading a vehicle?,Loading it towards the rear,loading it towards the front,spreading the load evenly,3,
+305,You are driving a tipper vehicle carrying loose dry sand Why should you cover this load properly?,To stop handling being affective,to set your rear ward vision,to prevent sand being blown into the eyes of other road users,3,
+306,How many people can you carry over the load carried on a truck?,one,as per permit,none,3,
+307,What should be checked first before turning to the left?,the right side mirror,the left side mirror,look behind over your right shoulders,2,
+308,You are about to move off you should always,using your mirrors look behind and give proper signal,signal left with indicator and move,use only the off side mirror and move away quickly,1,
+309,At road junction which of the following are most at risk,Cyclist and motor cyclist,pedestrian,both,3,
+310,The turning circle of a vehicle is the,number of turns of the steering wheels between locked,amount by which a vehicle cuts corners,amount of space needed for the vehicle to turn,3,
+311,Before braking in wet condition you should make sure as far as possible that,the gear lever is in neutral,there is no mist or water in your rear view mirror,your vehicle is trave ling slowly in a straight line,3,
+312,Your vehicle broken down on a motor way you have several passengers on board you should,stop the vehicle on the left side of the road as you can,move the passengers to the front of your vehicle,both,1,
+313,Wiper fitted on the windscreen of a vehicle is,only for rainy season,for cleaning the wind shield at any season,as a signal to the on coming vehicle to stop approaching,2,
+314,"A motor cycle rider observes a signboard which indicates"" Restrictions ends "", can he travel at a speed of",more than 50 k mph,maximum speed of the vehicle,not more than 50km/hr,3,
+315,The correct procedure for stopping a vehicle not equipped with anti lock brake system,Apply the foot brake firmly in a pumping action until the vehicle has stopped,apply the foot brake firmly once until the vehicle has been stopped,apply the foot brake and hand brake until the vehicle has stopped,2,
+316,You are driving a vehicle fitted with a speed governor you should be careful when,overtaking another vehicle,cornering,braking,1,
+317,Which of the following is a legal requirement for every vehicle?,First aid box,spare wheel,audio system,1,
+318,A driver of a motor car driving behind a long truck can keep a braking distance,12 meters,25 meters,safe distance,3,
+319,Traffic signs includes,all signals and warning sign posts,direction posts and marking on road,all of the above,3,
+320,What are the dangerous substances that can be carried on public service vehicle,Explosives,fuel and lubricant of the vehicles,safely packed cat ridge of small arms,2,
+321,No driver of a motor vehicle shall sound horn on,highways,prohibited areas by notification of the authority,rural roads,2,
+322,Which of the safety device fitted in Light Motor vehicle protects the driver from injury,helmet,Seat belt,none of above,2,
+323,Basic safety requirements of a two wheeler,rear wheel cover/ sari guard,crash guard,both of the above,3,
+324,Pedestrians should walk on the side of the road,right,left,middle,1,
+325,Things to be checked before a long drive,"fuel, oil, brake fluid, coolant, condition of tyre","spare wheel, tools, tension of all drive belts",all of the above,3,
+326,Reverse driving is permitted only for,Minimum distance required for changing direction,during night driving,driving on ghat roads,1,
+327,Precautions to be followed during parking at night,park out side of the carriage way and use park light and hand brake,park the vehicle on foot path away from traffic,use tyre jacky to prevent ro ling,1,
+328,Use of LPG as fuel in vehicle,is prohibited by law,can be used after certification from authorities,can not be used even in case of modern LPG in built models,2,
+329,Using LPG,Reduces pollution,cost effective,all of the above,3,
+330,On roads with defined lanes,use appropriate indicator signal before changing lanes,lane changing is prohibited by law,peep and see backwards through the front window before changing lanes,1,
+331,Towing is permitted only for,mechanically disabled or in completely assembled motor vehicles,registered travellers and side cars,all of the above,1,
+332,"During night, a car driving towards you with high beam on, the driver of that car is",driving with bad manners since high beams blind others,a safe driver since high beam lights up the road,not obeying law,1,
+333,When you want to change from one lane to another you should,give proper turn signal,Look through Rear view mirror and change lane if it is safe to do,both of the above,3,images/image_333
+334,"When you are driving in a four lane road, the vehicle in front of you is moving slowly and driving in the right lane and the road ahead is clear, for overtaking you should",pass the vehicle from the left side,pass the vehicle from the convenient side,pass the vehicle from the right hand side after getting signal from the vehicle at the front,3,
+335,"You are moving into the street from a parallel parking space, you should","blow horn and pull out slowly,",show signal to other traffic and then move carefully,proceed with caution after making sure that there is no vehicle in the vicinity that may cause an accident,2,
+336,"While on a main road, another vehicle enters from a cross road, which vehicle has the"" Right of way""",Vehicle on the main road,the vehicle approaching,none of the cars,1,
+337,"In lane traffic, before making a right turn you should be in",any lane,extreme left lane,extreme right lane,3,
+338,If your vehicle hits a pedestrian you should,identify yourself and leave,"help the person, and call an ambulance",help the injured for medical aid identify yourself and then report to police,3,
+339,You should not over take,when the road ahead is not visible,on straight road,in rural areas,1,
+340,Reversing is prohibited in,main road,in one way,att Junction,2,
+341,While driving on wet or slippery road,tyre pressure must be reduced,avoid sudden braking and acceleration,vehicle should be driven at high speed,2,
+342,"While driving a motor cycle behind a four wheeler, you should",keep the motor cycle in the centre and behind the vehicle ahead,stay slightly on the right or left of the vehicle,none of the above,2,
+343,While driving a motor cycle or an auto rickshaw hand signals can be shown by using,both hands,right hand only,left hand only,2,
+344,"While parking the vehicle, you should",park the vehicle in such a way that it does not obstruct or make inconvenience to other road users,parr ell el to the kerb,right angle to the kerb,1,
+345,"To drive a vehicle with expired insurance, one",should drive cautiously to avoid any accident or loss to third party,should not drive,may drive if the driver has a valid personal life insurance policy,2,
+346,A person affected by a motor vehicle accident can apply for compensation before,R To,Motor Accident Claims Tribunal,banker of the driver or owner,2,
+347,The penalty for driving a vehicle under the influence of drugs or alcohol are,"imprisonment up to six months, fine up to 2000 or both",strict warning from authorities,a fine of Rs5000/,1,
+348,"Before leaving your parked vehicle, you should",turn ignition key off,"stop the engine, remove key and engage hand brake",lock the car,2,
+349,A motor driving licence issued in a State is valid,throughout India,throughout the World,only in the State of issue,1,
+350,You can hold,a maximum of 3 licence,only one licence,"any number of licences however, each licence authorise only one class of vehicle for driving",2,
+351,Can you give a motor vehicle for driving to a person who does not have a valid licence?,"yes, since the driver solely is responsible","No, since it is a serious offence",an offence only if the vehicle involves in an accident,2,
+352,Whether extra head light can be provided other than the standard head lights,"yes, adding extra light brightens the road","No, you should not",Can be provided on the bottom part of the vehicle,2,
+353,Driving of a vehicle with the pollution values exceeding the limits,is permitted in emergency,is an offence under law,is liable for a strict warning from authorities,2,
+354,Abrupt braking shall not be resorted to,unless it is absolutely necessary,on down hill,on main road,1,
+355,Attaching or hanging of something on the rear view mirror is,against regulation,"permitted, depending upon its size",permitted if the object does not obstruct the view of the driver,1,
+356,"While passing a procession, body of troops or men at work you should",proceed at regular speed,stop,proceed with not more than 25 Km/hr and carefully,3,
+357,To stop a motor cycle,apply rear brakes and after slowing apply front brakes,apply both front and rear brakes simultaneously,apply rear brake only,2,
+358,While travelling together( group riding) two or more motor cycles can take the position,side by side,maintain the lane in a staggered position keeping a proper distance between motor cycle,travel behind each other in a single line,2,
+359,"While approaching a section of road way when there is loose sand or gravel, you should",hit the area as fast as possible,go as slowly as possible,slow down change to high torque gears before entering,2,
+360,You can conserve fuel when you drive the vehicle at,high speeds in high torque gears,high speed in low torque gears,a moderate uniform speed of 4555 K Mph in top gear,3,
+361,Exhaust of your vehicle contains,"oxygen, Nitrogen and hydrogen","carbon dioxide, nitrogen and water","carbon monoxide, nitrogen oxide, and hydro carbon",3,
+362,Failed to produce the PUC Certificate within 7 days of the detection by the Inspecting officer will attract,cancellation of driving licence,Suspension of Registration Certificates,Cancellation of Insurance Certificates,2,
+363,Which is the poison gas emitted through the exhaust gas of petrol vehicle,ammonia,carbon monoxide,chlorine,2,
+364,"It is dangerous to drive with bald( worn out) tyres, since",the vehicle pick up speed quickly,It has little road grip,it has too much road grip,2,
+365,A vehicle with a temporary Registration number plate can be used on road,for 30 days,only for the purpose of registration,for 6 months,2,
+366,Over speeding or dangerous driving may,attracts a strict warning for the authorities,is an offence and is punishable,attract other road users,2,
+367,Clutch riding or Riding on clutch means,using clutch frequently,keeping a foot on the clutch pedal,not using clutch at all,2,
+368,When a vehicle is approaching with flashing red or blue light you should,keep to the left of the road and slow down,stop where you are,ignore the vehicle,1,
+369,You can open the doors on the traffic side( right side) when,traffic is clear,the car stop completely,after signalling other cars to side,1,
+370,To park in a space where there is room for only one car You should,pull slowly into the parking space,park carefully into the parking space,park in front of the space,2,
+371,"When your vehicle skid while driving, You should",turn steering both the left and right,put on the brakes first,turn the steering wheel in the direction of the car is skidding,3,
+372,Fitment of a multi toned horn in a vehicle is,allowed,not recommended since it is a costly alternative,is against law,3,
+373,Flashing yellow traffic light means,continue at the same speed,"stop, if possible to do so",slow down and proceed with caution,3,
+374,"When you observe a yellow traffic light glowing in an intersection, you should",hurry to cross,stop at the stop line,proceed across the intersection with caution,3,
+375,A flashing red light means,stop and proceed with caution,slow sign,yield right of way sign,1,images/image_375
+376,When you are approaching a round to which you are about to enter you should,continue into the circular traffic at slow speed,give way to the vehicles coming from the right direction,use the outside lane only,2,
+377,"When you approach an intersection and you are in main road without traffic lights, police man and traffic signs, you should",slow down and be cautious to negotiate the intersection,come to full stop and proceed with caution,not change speed if the way is clear,1,
+378,Emergency vehicles means,road rollers and cranes,mobile automobile work shop,ambulance and fire service vehicles,3,
+379,Drivers should not sound horn,in one way,on main road,at silent zone,3,
+380,Registration numbers should be illuminated by,red light,white light,blue light,2,
+381,Mandatory signs are exhibited in,circular shape except stop and give way signs,triangular shape,rectangular shape,1,
+382,Cautionary signs are exhibited in,circular shape,triangular shape,rectangular shape,2,
+383,Informative signs are exhibited in,circular shape,triangular shape,rectangular shape,3,
+384,A school bus can be identified by,Cream e yellow paint,red paint,green paint,1,
+385,"While you intend to take a right or left turn, the sequence of action which you have to do",gear mirror signal,mirror gear signal,signal gear mirror,1,
+386,The sequence of operation when your vehicle moves from a stationary position are,mirror start gear signal move,start gear mirror signal move,start mirror signal gear move,2,
+387,The safe way to stop the vehicle,press clutch and then brake,press brake and then clutch,press clutch and brake simultaneously,2,
+388,The safest way to negotiate to steep descent,use higher torque gear with brake,use top gear with brake,use brake and clutch simultaneously,1,
+389,If your vehicle became break down during night,"stop, use hand brake and exhibit hazardous warning light",stop and exhibit red light,leave the vehicle,1,
+390,When a cow is standing across the road,wait until it clears the road,pass it from front,pass it from behind,3,
+391,Painting olive green in a private motor car is,not permitted,permitted,special permission is required,1,
+392,"For higher power, the gear to be used",1 st gear,top gear,2nd gear,1,
+393,Abrupt braking by driver,is allowed for safety reason,is not encouraged,is allowed in busy roads,1,
+394,Vehicle with left hand controls,can be used,can not be used,can be used with signalling device only,3,
+395,An accident victim can be treated by,only a government hospital doctor,any registered medical practitioner or doctor,by the driver,2,
+396,"While parking your vehicle on a downward gradient, in addition to the application of hand brake, the gear engaged should be",neutral gear,first gear,reverse gear,3,
+397,While turning to right or left it is more safe if you,use only indicators,show only hand signal,use both light indicators and hand signal,3,
+398,A driver shall drive in one way,only in the direction specified by the sign board,reverse direction in emergencies,both ways on sundays,1,
+399,"On ghat roads, when vehicles approach from the opposite sides the driver travelling down hill shall",drive fast before the opposite vehicle enters,switch on the head lights and take way,give preference to the vehicles going up,3,
+401,"When you leave a vehicle in a dangerous position, you are inviting action under",section 121,section 122,ser cti on 185,2,
+402,Driving under the influence of drugs or alcohol invites actions under,section 121,section 125,section 185,3,
+403,Section 131 of MV Act 1988 lays down the duties of the driver,regarding the limits of weight,regarding the signal and signalling devices,regarding the precautions at unguarded railway level crossing,3,
+404,Maximum speed limit of an Ambulance,60 km/hr,70km/hr,80km/hr,1,
+405,"Whether audiovisual equipments are permitted in any class of vehicle? if so, in which class",stage carriage,contract carriage except AR,EIB,2,
+406,Under which circumstance you will avoid overtaking,after a curve,on a curve,when the visibility ahead is clear,2,
+407,Which type of parking is more suitable on wide roads,in line,parallel,inclined,3,
+408,When a ped astr ian Steps in to a zebra line in front of you to cross the road,stop be for the stop line and treat it as a stop signal,you have to proceed before him,sound horn and speed up your vehicle to cross before him,1,
+409,Using mobile phone while driving can be punished with,A fine of Rs 100/ only,Disqualify from holding the driving licence Under CMVR 21(25),A fine of Rs 500/ only,2,
+410,How many students aged 5 to 12 are permitted to travel in an auto rickshaw,8,7,6,3,
+411,While driving behind a motor cycle on a badly maintained road you should,continuously blow horn,over take immediately,keep safe distance,3,
+412,"If you are fined for any traffic violation, you must feel",proud,humiliated,to correct your attitude in future,3,
+413,"If permitted, a free turn can be taken in a junction",while taking a left turn,while travelling straight,while taking a right turn,1,
+414,Seat belts have to be used by,Driver only,Front seat Passengers only,Both,3,
+415,Over loading of any kind is,prohibited under law,if the driver can control the vehicle safely,allowed if the driver pays the fine,1,
+416,Not using seat belt can lead to a fine of,Rs 250/,Rs 50/,Rs 100/,3,
+417,Driving by a drunken driver is punishable if the quantity of alcohol in blood,exceeds 30mg/100ml of blood,below 30mg/100ml blood,exceeds 100mg/100 ml of blood,1,
+418,Person sitting or standing by the side of the driver causing inconvenience to control the vehicle,is allowed with the permission of the R To,is not allowed,allowed in case of emergency,2,
+419,Vehicle with left hand steering control shall be used,by displaying a board caution left hand drive,by using light or mechanical indicator system,by using both of the above,3,
+420,This sign means,Road divides,Stagger d junction ahead,median ahead,2,images/image_420
+421,Carrying of load which projects backwards beyond the vehicle is,always permitted,permitted only to extend up to one meter from the rear end of the vehicle with suitable warning lights or flags,not permitted,2,
+422,How can we overcome the reduction of braking action after water servicing,brakes shall be adjusted by a mechanic,The vehicle to be withdrawn from the traffic at once,by operating the brake at several times at a slow driving speed,3,
+424,"Driver driving a vehicle in a public place without a licence, is liable for",penalty only,penalty for the driver and the owner and/ or seizure of vehicle,warning,2,
+426,In this road you should not,Park the vehicle,Slow the vehicle,Overtake another vehicle,1,images/image_426
+427,Can we allow any person to travel along with the driver of a tractor,yes,No,Up to 2 persons are permitted,2,
+428,"When the visibility becomes very low, during the day time in rainy season, the driver shall",use head light,make sure that wiper blades are not old,none of the above,1,
+429,What this road means?,Lane Traffic,Road Divides,One way,1,images/image_429
+430,Yellow line means?,No parking,Stop Line,Do not overtake,3,images/image_430
+431,What these Line means?,It act as a median,No parking,No Stopping,1,images/image_431
+432,A flashing yellow at an intersection means?,Proceed with caution,Stop and proceed,Proceed fast,1,images/image_432
+434,What is this line means?,Two line traffic,Road divides,Lane traffic,1,images/image_434
+435,The picture shows,Tail gating,Safe distance,Follow the vehicle,2,images/image_435
+436,What is indicated by these on the instrument console?,warning lamps,Road signs,Hazard lamp,1,images/image_436
