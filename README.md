@@ -22,5 +22,6 @@ It's not complete. Don't even try to run it. Hopefully I'll be able to make it i
 ## Credit where credit's due
 If you want to know where I copied code snippets from and don't want to read the code, here you go:
 - [Image extraction from PDF](https://pythonscholar.com/extract-images-from-pdf-in-python/)
+- [Image scaling in TkInter](https://stackoverflow.com/questions/24061099/tkinter-resize-background-image-to-window-size)
 - TkDocs
 - Tabula Docs

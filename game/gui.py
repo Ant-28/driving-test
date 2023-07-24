@@ -8,7 +8,7 @@ from ttkbootstrap.constants import *
 from tkinter import StringVar, Canvas
 from utils import WindowTracker
 from typing import Tuple, List, Callable
-
+from PIL import Image, ImageTk
 
 import time
 
@@ -25,8 +25,9 @@ class BaseGui():
         self.root = None
         # windowtracker
         self.wt   = None
-
+        self.padding_data = {} # needed by both gui and windowtracker
         self._init_window()
+        
         
 
 
@@ -37,7 +38,8 @@ class BaseGui():
         # ttkbootstrap supports hidpi by default, thank goodness
         self.root = Window(title = "Driving Test v0.1", themename="darkly", size = self.winsize, position=coords)
         self.root.update() # update root data and never forget this for the love of god
-        self.wt = WindowTracker(self.root)
+        self.wt = WindowTracker(self.root, self.padding_data)
+        
 
         
 
@@ -56,35 +58,62 @@ class BaseGui():
 
         w = self.wt.width if "width" not in kwargs else kwargs["width"]
         h = self.wt.height if "height" not in kwargs else kwargs["height"]
+        p = 0 if "padding" not in kwargs else kwargs["padding"]
         
-        f = ttk.Frame(parent, width=w, height=h,  **kwargs)
+        f = ttk.Frame(parent, width=w, height=h ,**kwargs)
 
-        col, row = grid_plac
-        ncols, nrows = grid_data
+        return self._create_helper(f, parent, p, grid_plac, grid_data, **kwargs)
 
-        f.grid(column=col, row=row, columnspan=ncols, rowspan=nrows)
-        f.grid_propagate(False)
-        f.grid_columnconfigure(index = tuple(range(ncols)), weight=1, uniform="column")
-        f.grid_rowconfigure(   index = tuple(range(nrows)), weight=1, uniform="row"   )
-        return f
+    def create_label(self, parent: Window, grid_plac: Tuple[int, int] = (0, 0),
+                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ttk.Label:
+        parent.update()
+        p = 0 if "padding" not in kwargs else kwargs["padding"]
+        l = ttk.Label(parent, **kwargs)
+        return self._create_helper(l, parent, p, grid_plac, grid_data, **kwargs)
+    
+    def create_radiobutton(self, parent: Window, grid_plac: Tuple[int, int] = (0, 0),
+                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ttk.Radiobutton:
+        # this code isn't generalizable for a generic helper so see _some_ code repetition
+        parent.update()
+        p = 0 if "padding" not in kwargs else kwargs["padding"]
+        r = ttk.Radiobutton(parent, **kwargs)
+        return self._create_helper(r, parent, p, grid_plac, grid_data, **kwargs)
+    
+
+    def create_image(self, parent, ) -> ImageLabel:
+        pass
+                
+    def _create_helper(self, object, parent: Window, p: int, grid_plac: Tuple[int, int] = (0, 0), 
+                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs):
+        
+        
+        self.padding_update(object, p)
+        
+
+        row, col= grid_plac
+        nrows, ncols = grid_data
+
+        if type(object) in [ttk.Label, ttk.Button, ttk.Checkbutton]:
+            object["wraplength"] = parent.winfo_width() - p
 
 
+        object.grid(column=col, row=row, columnspan=ncols, rowspan=nrows)
+        object.grid_propagate(False)
+        object.grid_columnconfigure(index = tuple(range(ncols)), weight=1, uniform="column")
+        object.grid_rowconfigure(   index = tuple(range(nrows)), weight=1, uniform="row"   )
+        object.update()
+
+        return object
+        
 
     def _gen_scene(self):
         # the function you should edit when creating a scene
         
         pass
-        
-        
-        
-        
-        
-
 
     def run(self, func: Callable = None):
         
         self._gen_scene()
-        
         try:
             self.root.mainloop()
         except KeyboardInterrupt:
@@ -93,6 +122,10 @@ class BaseGui():
                 pass
             else:
                 func()
+
+    def padding_update(self, object, padding: int):
+        self.padding_data[object] = padding
+        self.wt.padding_update(object, padding)
 
 
 def main():
