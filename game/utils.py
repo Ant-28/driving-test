@@ -46,7 +46,7 @@ class ImageFrame(ttk.Frame):
         row, col = grid_info["row"], grid_info["column"]
         grid_data = self.master.grid_bbox(row, col)
 
-        print(grid_data)
+        # print(grid_data)
         # get grid width and height
         grid_width = grid_data[2]
         grid_height = grid_data[3]
@@ -68,10 +68,10 @@ class ImageFrame(ttk.Frame):
             new_width, new_height = new_width2, new_height2
 
 
-        print(new_width, new_height)              
+        # print(new_width, new_height)              
         # keep the original copy as is 
         self.image = self.image_copy.resize((new_width, new_height))
-        print(new_width, new_height)
+        # print(new_width, new_height)
         self.image_tk = ImageTk.PhotoImage(self.image)
         self.label.configure(image = self.image_tk)
         self.label.pack(fill="both")

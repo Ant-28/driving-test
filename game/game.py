@@ -41,7 +41,7 @@ class Game():
         data = set(list(range(0, self.qs - 1))).difference(self.correct)
 
         sample = random.sample(list(data), 1)
-        print(sample)
+        # print(sample)
         return self.make_qdata(sample[0])
     
     def check_answer(self, num: int) -> bool:
@@ -227,13 +227,17 @@ class MainGUI(BaseGui):
        
         self.result_area["text"] = ""
 
-        if self.q.has_img:
-            if self.image:
+        if self.image:
                 self.image.destroy()
+        if self.q.has_img:
+        
+            
             self.image = self.create_image(self.main_frame, self.q.img_dir,(1,1), (1,1))
             self.image.resize()
             # print(type(image) == ImageFrame)
         
+
+
         self.stats["text"] = self.game.get_stats()
         self.root.update()
         
