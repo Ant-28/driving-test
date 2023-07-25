@@ -2,13 +2,20 @@ from PyPDF2 import PdfReader
 from tabula import read_pdf
 from typing import List, Tuple
 import re # regexes my beloved
-
+import os
 import pandas as pd
 from pandas import DataFrame
 import numpy as np
 # grammar corrections
 import pkg_resources
 from symspellpy.symspellpy import SymSpell
+
+
+file_loc = os.path.dirname(__file__)
+
+
+
+
 
 
 ## symspell boilerplate to handle typos and missing spaces
@@ -98,7 +105,7 @@ print(type(concat_df["img"]))
 
 
 # lambda abuse
-concat_df["img"] = concat_df["q_no"].apply(lambda x: "images/image_" + str(baz) \
+concat_df["img"] = concat_df["q_no"].apply(lambda x: "../images/image_" + str(baz) + ".jpeg" \
                                                if (x in image_ind) and (baz := image_ind[image_ind.index(x)]) else "")
 concat_df.info()
 

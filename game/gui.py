@@ -3,11 +3,12 @@ from __future__ import annotations
 import sys
 
 from screeninfo import get_monitors
-from ttkbootstrap import ttk, Window
+from ttkbootstrap import ttk, Window, Style
 from ttkbootstrap.constants import *
-from tkinter import StringVar, Canvas
-from utils import WindowTracker
+from tkinter import StringVar, Canvas, Radiobutton
+from utils import WindowTracker, ImageFrame
 from typing import Tuple, List, Callable
+import tkinter as tk
 from PIL import Image, ImageTk
 
 import time
@@ -25,6 +26,7 @@ class BaseGui():
         self.root = None
         # windowtracker
         self.wt   = None
+        self.style = None
         self.padding_data = {} # needed by both gui and windowtracker
         self._init_window()
         
@@ -37,6 +39,8 @@ class BaseGui():
         # take a fraction of screen height for window width
         # ttkbootstrap supports hidpi by default, thank goodness
         self.root = Window(title = "Driving Test v0.1", themename="darkly", size = self.winsize, position=coords)
+        
+       
         self.root.update() # update root data and never forget this for the love of god
         self.wt = WindowTracker(self.root, self.padding_data)
         
@@ -62,29 +66,51 @@ class BaseGui():
         
         f = ttk.Frame(parent, width=w, height=h ,**kwargs)
 
-        return self._create_helper(f, parent, p, grid_plac, grid_data, **kwargs)
+        return self._create_helper(f, parent, p, grid_plac, grid_data)
 
     def create_label(self, parent: Window, grid_plac: Tuple[int, int] = (0, 0),
                                            grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ttk.Label:
         parent.update()
         p = 0 if "padding" not in kwargs else kwargs["padding"]
         l = ttk.Label(parent, **kwargs)
-        return self._create_helper(l, parent, p, grid_plac, grid_data, **kwargs)
+        return self._create_helper(l, parent, p, grid_plac, grid_data)
     
     def create_radiobutton(self, parent: Window, grid_plac: Tuple[int, int] = (0, 0),
                                            grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ttk.Radiobutton:
         # this code isn't generalizable for a generic helper so see _some_ code repetition
         parent.update()
         p = 0 if "padding" not in kwargs else kwargs["padding"]
+        
         r = ttk.Radiobutton(parent, **kwargs)
-        return self._create_helper(r, parent, p, grid_plac, grid_data, **kwargs)
+        
+       
+        return self._create_helper(r, parent, p, grid_plac, grid_data)
     
 
-    def create_image(self, parent, ) -> ImageLabel:
-        pass
-                
+    def create_image(self, parent, image_dir : str, grid_plac: Tuple[int, int] = (0, 0),
+                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ImageFrame:
+        parent.update()
+        p = 0 if "padding" not in kwargs else kwargs["padding"]
+        i = ImageFrame(parent, image_dir, **kwargs)
+        self.padding_update(i.label, 0)
+        
+        val = self._create_helper(i, parent, p, grid_plac, grid_data)
+        val.resize()
+        return val
+
+    def create_button(self, parent, grid_plac: Tuple[int, int] = (0, 0),
+                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs) -> ttk.Button:
+        parent.update()
+        p = 0 if "padding" not in kwargs else kwargs["padding"]
+        
+        b = ttk.Button(parent, **kwargs)
+        
+        return self._create_helper(b, parent, p, grid_plac, grid_data)
+
+
+
     def _create_helper(self, object, parent: Window, p: int, grid_plac: Tuple[int, int] = (0, 0), 
-                                           grid_data: Tuple[int, int] = (1, 1),  **kwargs):
+                                           grid_data: Tuple[int, int] = (1, 1)):
         
         
         self.padding_update(object, p)
@@ -93,7 +119,7 @@ class BaseGui():
         row, col= grid_plac
         nrows, ncols = grid_data
 
-        if type(object) in [ttk.Label, ttk.Button, ttk.Checkbutton]:
+        if type(object) in [ttk.Label, ttk.Checkbutton]:
             object["wraplength"] = parent.winfo_width() - p
 
 

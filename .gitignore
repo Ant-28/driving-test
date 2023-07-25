@@ -5,3 +5,4 @@ test/
 images/
 questionData.py
 __pycache__/
+data/save.txt
