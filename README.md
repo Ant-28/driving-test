@@ -14,7 +14,7 @@ In case this all goes awry, I have my initial commit as a backup.
 - The "joy" of data extraction (quotes for sarcasm)
 - How to make my own project
 - Event driven programming with `tkinter`
-- There's something I'm missing here that I should add later...
+- Image scaling is a pain
 
 ## Hmm. Interesting. How do I run this?
 Download the repo and run `python -m game/game.py`
