@@ -2,6 +2,6 @@
 .venv
 .venv/*
 test/
-images/
+
 __pycache__/
 data/save.txt
