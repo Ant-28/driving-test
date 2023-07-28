@@ -17,7 +17,7 @@ In case this all goes awry, I have my initial commit as a backup.
 - Image scaling is a pain
 
 ## Hmm. Interesting. How do I run this?
-Download the repo and run `python -m game/game.py`
+Download the repo and run `python game/game.py`
 
 ## Credit where credit's due
 If you want to know where I copied code snippets from and don't want to read the code, here you go:
@@ -25,3 +25,7 @@ If you want to know where I copied code snippets from and don't want to read the
 - [Image scaling in TkInter](https://stackoverflow.com/questions/24061099/tkinter-resize-background-image-to-window-size)
 - TkDocs
 - Tabula Docs
+
+## Special thanks to 
+
+- sameerdash2[https://github.com/sameerdash2] for finding errors in the documentation and testing out the program
